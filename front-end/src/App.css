@@ -1,0 +1,88 @@
+.nav-ul{
+  background-color: #148ce4;
+  margin: 0px;
+}
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.nav-ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-ul li :hover{
+  padding: 2px;
+  border: 2px solid black;
+  color: black;
+  border-radius: 5px;
+}
+.nav-right{
+  text-align: right;
+}
+.footer {
+  position: absolute;
+  bottom: 0px;
+  background: #148ce4;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.inputBox{
+  width: 300px;
+  height: 30px;
+  margin: auto;
+  margin-bottom: 20px;
+  display: block;
+}
+.signup{
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+}
+.product-list ul li{
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+.product-list ul{
+  margin: 0px;
+}
+.footer{
+  position: fixed;
+}
